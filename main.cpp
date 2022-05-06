@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+
 /* Declarations */
 class LightCommand;
 class RemoteControl;
