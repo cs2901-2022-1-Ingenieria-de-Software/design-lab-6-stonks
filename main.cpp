@@ -71,13 +71,13 @@ public:
 class IncreaseIntensity : public LightCommand {
 public:
     void execute() {
-        lightEditor->upIntensity(light);
+        lightEditor->increseaseIntensity(light);
     }
 };
 
 class DecreaseIntensity : public LightCommand {
 public:
     void execute() {
-        lightEditor->downIntensity(light);
+        lightEditor->decreseaseIntensity(light);
     }
 };
